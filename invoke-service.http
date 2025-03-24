@@ -1,0 +1,6 @@
+@test_api_HostAddress = https://local.test-sandbox.dev:7269
+
+GET {{test_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
